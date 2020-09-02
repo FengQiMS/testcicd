@@ -11,6 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "part-00002-tid-b150-41f5-a69c-d44b7f4f8f85-7561-2.c000.snappy.parquet",
+				"folderPath": "New Directory1",
 				"container": "container1"
 			},
 			"compressionCodec": "snappy"
