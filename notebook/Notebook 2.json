@@ -1,0 +1,48 @@
+{
+	"name": "Notebook 2",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "fengqitest2",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2
+		},
+		"metadata": {
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/051ddeca-1ed6-4d8b-ba6f-1ff561e5f3b3/resourceGroups/fengqi-synapse-rg/providers/Microsoft.Synapse/workspaces/fengqi0507weeu/bigDataPools/fengqitest2",
+				"name": "fengqitest2",
+				"type": "Spark",
+				"endpoint": "https://fengqi0507weeu.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/fengqitest2",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net"
+				},
+				"sparkVersion": "2.4",
+				"nodeCount": 3,
+				"cores": 8,
+				"memory": 56
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"source": [
+					"test2"
+				],
+				"outputs": [],
+				"execution_count": null
+			}
+		]
+	}
+}
