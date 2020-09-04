@@ -1,0 +1,27 @@
+{
+	"name": "Spark job definition 1",
+	"properties": {
+		"targetBigDataPool": {
+			"referenceName": "fengqitest2",
+			"type": "BigDataPoolReference"
+		},
+		"requiredSparkVersion": "2.4",
+		"language": "scala",
+		"jobProperties": {
+			"name": "Spark job definition 1",
+			"file": "abfss://fs1@fengqieastusgen2.dfs.core.windows.net/sparkjobdefinitionTest/wordcount.jar",
+			"className": "WordCount",
+			"args": [
+				"abfss://fs1@fengqieastusgen2.dfs.core.windows.net/sparkjobdefinitionTest/shakespeare.txt",
+				"abfss://fs1@fengqieastusgen2.dfs.core.windows.net/sparkjobdefinitionTest/output/"
+			],
+			"jars": [],
+			"files": [],
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2
+		}
+	}
+}
